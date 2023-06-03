@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  font-weight: Roboto;
+  font-size: 16px;
+  color: #475569;
+}
+@media screen and (max-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+.arrow-icon {
+  width: 18px;
+  height: 18px;
+}
+.button-text {
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+}
